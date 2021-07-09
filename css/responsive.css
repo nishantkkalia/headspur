@@ -21,7 +21,9 @@
 /**************************************** Responsive for 1024px**********************************/
 
 @media (max-width: 1025px){	
-    
+    .newsl_block img {
+        max-width: 400px;
+    }
 }
 
 /************************************************************************************************/
@@ -44,12 +46,13 @@
 /**************************************** Responsive for 768px**********************************/
 
 @media (max-width: 769px){	
-    .custom_navbar {
-        flex-direction: row-reverse;
-    }
 
     .custom_navbar li.nav-item {
         padding: 0;
+    }
+
+    .custom_navbar .navbar-brand img {
+        max-width: 135px;
     }
     
 }
