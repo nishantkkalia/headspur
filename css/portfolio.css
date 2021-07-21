@@ -29,7 +29,7 @@
     }
 
     .lightboxgallery-gallery {
-      grid-template-columns: repeat(2, 50%);
+      grid-template-columns: repeat(1, 100%);
   }
   }
   
