@@ -422,10 +422,6 @@ footer {
     width: 20px;
 }
 
-.team_image.mobi {
-    display: none;
-}
-
 .social2 img:last-child {
     margin: 0 !important;
 }

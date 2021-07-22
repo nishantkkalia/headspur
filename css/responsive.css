@@ -96,10 +96,6 @@
         margin-right: 0 !important;
     }
 
-    .team_image.mobi {
-        display: block;
-    }
-
     .why_block {
         flex-direction: column;
         align-items: center;
