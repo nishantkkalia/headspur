@@ -9,6 +9,7 @@
     display: grid;
     margin: 35px -10px 0;
     grid-template-columns: repeat(3, 33.3%);
+    overflow: hidden;
   }
   .lightboxgallery-gallery-item {
     cursor: zoom-in;

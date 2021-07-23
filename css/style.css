@@ -446,7 +446,7 @@ a.load-more__btn {
     font-size: 18px;
     max-width: 160px;
     width: 100%;
-    margin: 25px auto 0;
+    margin: 25px auto 65px;
     grid-column: span 3;
 
 }
