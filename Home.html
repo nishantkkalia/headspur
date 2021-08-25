@@ -507,13 +507,14 @@
 						Design.</p>
 				</div>
 				<div class="news_form">
-					<form class="row g-3 needs-validation" novalidate>
+					<form class="row g-3 needs-validation" name="contact" method="POST" data-netlify="true">
 						<div class="col-md-3">
-							<input type="text" class="form-control" id="validationCustom01" value="Email" required>
+							<input type="email" class="form-control" id="validationCustom01" name="email" value="Email"
+								required>
 						</div>
 						<div class="col-md-5">
-							<input type="text" class="form-control" id="validationCustom02" value="Your Message"
-								required>
+							<input type="text" class="form-control" id="validationCustom02" name="message"
+								value="Your Message" required>
 						</div>
 						<div class="col-md-4">
 							<button class="news_btn btn btn-primary" type="submit">Send</button>
