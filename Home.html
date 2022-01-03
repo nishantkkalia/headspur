@@ -500,7 +500,7 @@
 
 	<section class="news_letter" id="newsletter">
 		<div class="container">
-			<div class="newsl_block">
+			<div class="newsl_block  data-aos=" fade-down"">
 				<div class="news_text">
 					<h1>Let’s Work Together</h1>
 					<p>We are a worldwide based Creative Agency. We specialize in software development and User
@@ -640,7 +640,11 @@
 		});
 	</script>
 	<script>
-		AOS.init();
+		$(document).ready(function () {
+			AOS.init({
+				//code here
+			});
+		});
 	</script>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
