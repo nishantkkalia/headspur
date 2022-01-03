@@ -29,7 +29,7 @@
 	<script src="js/jquery.simpleLoadMore.min.js"></script>
 	<script src="js/lightbox.js"></script>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
+	<script src="https://cdn.jsdelivr.net/gh/AmagiTech/JSLoader/amagiloader.js"></script>
 </head>
 
 
@@ -656,6 +656,12 @@
 				//code here
 			});
 		});
+	</script>
+	<script>
+		AmagiLoader.show();
+		setTimeout(() => {
+			AmagiLoader.hide();
+		}, 3000);
 	</script>
 </body>
 
