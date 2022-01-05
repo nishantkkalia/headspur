@@ -7,7 +7,7 @@
 /*******font-family ends******/
 
 p, a, li, input, text-area {
-	font-family: Montserrat;
+	font-family: Montserrat, sans-serif, Roboto, Lato, Serif;
 	font-weight: 400;
 	font-size: 16px;
     letter-spacing: .25px;
@@ -16,7 +16,7 @@ p, a, li, input, text-area {
 }
 
 .btn, .btn:hover {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif, Roboto, Lato, Serif;
     letter-spacing: 0px;
     text-align: center;
     font-weight: 600;
@@ -26,7 +26,7 @@ p, a, li, input, text-area {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: Montserrat;
+	font-family: Montserrat, sans-serif, Roboto, Lato, Serif;
 	margin-bottom: 0 !important;
     letter-spacing: .25px;
     color: rgba(75, 74, 98, 1);
@@ -87,6 +87,10 @@ a:hover {
     align-items: center;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 /************************************hover******************************/
 /***********************************************************************/
 
@@ -96,6 +100,11 @@ a:hover {
 /*****navbar******/
 .custom_navbar .navbar-brand img {
     max-width: 200px;
+}
+
+.custom_navbar {
+    justify-content: space-between;
+    padding: 0;
 }
 
 .btn_bgd {
@@ -286,10 +295,6 @@ div#workslider .owl-nav button i:hover {
     max-width: 230px;
 }
 
-.team {
-    margin: 100px 0;
-}
-
 .why_us {
     background: rgba(241, 240, 249, 1);
     padding: 120px 0px;
@@ -413,10 +418,51 @@ footer {
     padding: 0;
 }
 
-.team_image.mobi {
-    display: none;
+.social2 img {
+    width: 20px;
 }
 
 .social2 img:last-child {
     margin: 0 !important;
+}
+
+.social2 a img:hover {
+    filter: invert(1);
+    transform: scale(1.15);
+    transition: all 0.5s ease;
+}
+
+a.load-more__btn {
+    letter-spacing: 0px;
+    text-align: center;
+    font-weight: 600;
+    background: linear-gradient( 
+124.86deg
+ , #8D7FD2 7.75%, #4A4ABD 95.29%);
+    box-shadow: 0px 32px 34px 0px rgb(0 0 0 / 20%);
+    color: #fff;
+    padding: 20px 30px 20px 30px;
+    border-radius: 33.5px 33.5px 33.5px 33.5px;
+    font-size: 18px;
+    max-width: 160px;
+    width: 100%;
+    margin: 25px auto 65px;
+    grid-column: span 3;
+
+}
+
+.partners_main_box {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    row-gap: 35px;
+    align-items: center;
+}
+
+.pt1 img {
+    filter: grayscale(1);
+    max-width: 150px;
+}
+
+.pt1 {
+    text-align: center;
 }
