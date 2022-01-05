@@ -460,18 +460,9 @@ a.load-more__btn {
 
 .pt1 img {
     filter: grayscale(1);
+    max-width: 150px;
 }
 
 .pt1 {
     text-align: center;
-}
-
-[data-aos^=fade][data-aos^=fade] {
-    opacity: 0;
-    transition-property: opacity,transform;
-}
-
-[data-aos^=fade][data-aos^=fade].aos-animate {
-    opacity: 1;
-    transform: translateZ(0);
 }
