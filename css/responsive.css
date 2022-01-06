@@ -1,0 +1,134 @@
+
+
+
+@media (min-width: 1280px){								
+.container {
+    max-width: 1230px !important;
+}
+}
+
+
+/************************************************************************************************/
+/**************************************** Responsive for 1280px**********************************/
+
+@media (max-width: 1280px){	
+
+}
+
+
+
+/************************************************************************************************/
+/**************************************** Responsive for 1024px**********************************/
+
+@media (max-width: 1025px){	
+    .newsl_block img {
+        max-width: 400px;
+    }
+}
+
+/************************************************************************************************/
+/**************************************** Responsive for 768px**********************************/
+
+@media (max-width: 992px){	
+    .hero_img img {
+        top: -370px;
+        width: 100%;
+    }
+
+    .newsl_block img {
+        max-width: 330px;
+    }
+
+}
+
+
+/************************************************************************************************/
+/**************************************** Responsive for 768px**********************************/
+
+@media (max-width: 769px){	
+
+    .custom_navbar li.nav-item {
+        padding: 0;
+    }
+
+    .custom_navbar .navbar-brand img {
+        max-width: 135px;
+    }
+    
+}
+
+
+/************************************************************************************************/
+/**************************************** Responsive for 414px**********************************/
+
+@media (max-width: 415px){	
+
+    .hero_img img {
+        position: initial;
+    }
+
+    .block_text {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .team_text {
+        margin: 0 !important;
+        text-align: center;
+    }
+
+    .team_player {
+        flex-direction: column;
+    }
+
+    .team_image.desk {
+        display: none;
+    }
+
+    .team_image, .news_form input,
+    .footer_block1, .footer_block2 {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .icon {
+        margin-bottom: 30px;
+        margin-right: 0 !important;
+    }
+
+    .why_block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newsl_block img {
+        top: -113px;
+        right: 6px;
+        max-width: 172px;
+    }
+
+    .hero_text, .news_text,
+    .sharp_text, .why_text,
+    .news_form {
+        text-align: center;
+    }
+
+    .head_text {
+        margin: 0 auto 70px;
+    }
+
+    .why_text p {
+        padding-right: 0;
+    }
+
+    .partners_main_box {
+        grid-template-columns: repeat(2, 50%);
+    }
+
+}
+/************************************************************************************************/
+/**************************************** Responsive for 375px**********************************/
+
+@media (max-width: 376px){	
+    
+}
