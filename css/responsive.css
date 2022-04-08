@@ -15,7 +15,7 @@
 /************************************************************************************************/
 /**************************************** Responsive for 1024px**********************************/
 
-@media (max-width: 1025px){	
+@media (max-width: 1025px) {
     .newsl_block img {
         max-width: 400px;
     }
@@ -53,7 +53,7 @@
     .custom_navbar .navbar-brand img {
         max-width: 135px;
     }
-    
+
 }
 
 
@@ -137,6 +137,8 @@
 
     .blogmore {
         text-align: center;
+    }
+
     .partners_main_box {
         grid-template-columns: repeat(2, 50%);
     }
