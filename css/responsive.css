@@ -1,19 +1,14 @@
-
-
-
-@media (min-width: 1280px){								
-.container {
-    max-width: 1230px !important;
-}
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1230px !important;
+    }
 }
 
 
 /************************************************************************************************/
 /**************************************** Responsive for 1280px**********************************/
 
-@media (max-width: 1280px){	
-
-}
+@media (max-width: 1280px) {}
 
 
 
@@ -29,7 +24,7 @@
 /************************************************************************************************/
 /**************************************** Responsive for 768px**********************************/
 
-@media (max-width: 992px){	
+@media (max-width: 992px) {
     .hero_img img {
         top: -370px;
         width: 100%;
@@ -45,7 +40,11 @@
 /************************************************************************************************/
 /**************************************** Responsive for 768px**********************************/
 
-@media (max-width: 769px){	
+
+@media (max-width: 769px) {
+    .custom_navbar {
+        flex-direction: row-reverse;
+    }
 
     .custom_navbar li.nav-item {
         padding: 0;
@@ -61,7 +60,7 @@
 /************************************************************************************************/
 /**************************************** Responsive for 414px**********************************/
 
-@media (max-width: 415px){	
+@media (max-width: 415px) {
 
     .hero_img img {
         position: initial;
@@ -85,8 +84,10 @@
         display: none;
     }
 
-    .team_image, .news_form input,
-    .footer_block1, .footer_block2 {
+    .team_image,
+    .news_form input,
+    .footer_block1,
+    .footer_block2 {
         margin-bottom: 30px;
         text-align: center;
     }
@@ -107,8 +108,10 @@
         max-width: 172px;
     }
 
-    .hero_text, .news_text,
-    .sharp_text, .why_text,
+    .hero_text,
+    .news_text,
+    .sharp_text,
+    .why_text,
     .news_form {
         text-align: center;
     }
@@ -121,14 +124,26 @@
         padding-right: 0;
     }
 
+    .blogimage {
+        border-right: 0;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .blogtextpara,
+    .bloglink {
+        text-align: center;
+    }
+
+    .blogmore {
+        text-align: center;
     .partners_main_box {
         grid-template-columns: repeat(2, 50%);
     }
 
 }
+
 /************************************************************************************************/
 /**************************************** Responsive for 375px**********************************/
 
-@media (max-width: 376px){	
-    
-}
+@media (max-width: 376px) {}
