@@ -137,18 +137,15 @@
 
     .blogmore {
         text-align: center;
-
-        .partners_main_box {
-            grid-template-columns: repeat(2, 50%);
-        }
-
-        .partners_main_box {
-            grid-template-columns: repeat(2, 50%);
-        }
-
     }
 
-    /************************************************************************************************/
-    /**************************************** Responsive for 375px**********************************/
+    .partners_main_box {
+        grid-template-columns: repeat(2, 50%);
+    }
 
-    @media (max-width: 376px) {}
+}
+
+/************************************************************************************************/
+/**************************************** Responsive for 375px**********************************/
+
+@media (max-width: 376px) {}

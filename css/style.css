@@ -510,3 +510,8 @@ a.load-more__btn {
     border-right: 1px solid #F1F0F9;
     margin-right: 25px;
 }
+
+.clutch-widget {
+    max-width: 760px;
+    margin: auto;
+}
